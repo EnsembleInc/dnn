@@ -138,7 +138,7 @@ val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 test_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 
 # Simple training loop
-num_epochs = 5
+num_epochs = 1
 train_losses, val_losses = [], []
 
 # Prefer CUDA, then Apple MPS (for Apple Silicon), then CPU
